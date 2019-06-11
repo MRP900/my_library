@@ -2,7 +2,7 @@ config.json
 db.sqlite3
 manage.py
 settings.py
-server/books/__pycache__/admin.cpython-37.pyc
+
 
 ### OSX ###
 .DS_Store
