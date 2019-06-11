@@ -1,2 +1,4 @@
 config.json
 db.sqlite3
+manage.py
+settings.py
