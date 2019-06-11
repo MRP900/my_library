@@ -1,1 +1,3 @@
 config.json
+db.sqlite3
+server/__pycache__/settings.cpython-37.__pyc
