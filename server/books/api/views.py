@@ -1,11 +1,11 @@
 from rest_framework import generics, mixins
 from books.models import Book
-from .serializers import  bookSerializer
+from .serializer import  bookSerializer
 
 class bookAPIView(mixins.CreateModelMixin, generics.ListAPIView):
   resource_name = 'books'
   serializer_class = bookSerializer
-  
+
   serializer_class = bookSerializer
 
   def get_queryset(self):
