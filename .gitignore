@@ -95,3 +95,21 @@ db.sqlite3
 .vscode
 
 C:\Users\Matt\Desktop\my_library\server\server\__pycache__\urls.cpython-37.pyc
+
+### Ember ###
+/client/dist
+/client/tmp
+# dependencies
+/client/node_modules
+/client/bower_components
+# misc
+/client/.sass-cache
+/client/connect.lock
+/client/coverage/*
+/client/libpeerconnection.log
+/client/npm-debug.log
+/client/testem.log
+# ember-try
+/client/.node_modules.ember-try/
+/client/bower.json.ember-try
+/client/package.json.ember-try
