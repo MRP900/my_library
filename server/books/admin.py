@@ -3,5 +3,5 @@ from .models import Book
 
 @admin.register(Book)
 
-class boodAdmin(admin.ModelAdmin):
+class bookAdmin(admin.ModelAdmin):
     list_display = ['title', 'author', 'description']
